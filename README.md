@@ -8,7 +8,7 @@ Jordimp & Co. is the working name of one engineer in Barcelona. I build backend 
 
 **[codebaserag](https://github.com/jordimarsal/codebaserag)**: hexagonal RAG over a codebase. Retrieval quality is a CI gate: 40+ golden Q&A pairs and a committed recall@5 baseline that fails the build on regression.
 
-**[harness-standard](https://github.com/jordimarsal/harness-standard)**: multi-agent harness with spec-author, implementer and reviewer roles, and human gates between them. Installs into any project with one command.
+**[harness](https://github.com/jordimarsal/harness)**: multi-agent harness with spec-author, implementer and reviewer roles, and human gates between them. Installs into any project with one command.
 
 **[kafka-adapter-telemetry](https://github.com/jordimarsal/kafka-adapter-telemetry)**: Kafka gateway and hub with idempotent Oracle persistence, dead-letter queues, health alerts and a live SSE dashboard. Java 25, Spring Boot 4.
 
