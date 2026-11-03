@@ -10,10 +10,10 @@ Jordimp & Co. is the working name of one engineer in Barcelona. I build backend 
 
 **[harness](https://github.com/jordimarsal/harness)**: multi-agent harness with spec-author, implementer and reviewer roles, and human gates between them. Installs into any project with one command, and its process ships as six standalone skills: `npx skills add jordimarsal/harness`.
 
+**[buildwright](https://github.com/jordimarsal/buildwright)**: agent-loop runtime with per-step model routing — LangGraph orders the steps, PydanticAI runs them, LiteLLM serves the model and Langfuse traces it. The role-to-model map is configuration, so switching models touches zero lines of pipeline.
+
 **[kafka-adapter-telemetry](https://github.com/jordimarsal/kafka-adapter-telemetry)**: Kafka gateway and hub with idempotent Oracle persistence, dead-letter queues, health alerts and a live SSE dashboard. Java 25, Spring Boot 4.
 
 **[mcp-transparent-png](https://github.com/jordimarsal/mcp-transparent-png)**: MCP server in Python for PNG transparency, with three modes (rgb, auto, greenscreen).
-
-**[redis-toolkit](https://github.com/jordimarsal/redis-toolkit)**: rate limiting for LLM gateways. Atomic per-client token buckets that degrade gracefully when Redis fails. Java.
 
 Site: [jordimp.net](https://jordimp.net) · LinkedIn: [jordi-marsal-poy](https://www.linkedin.com/in/jordi-marsal-poy) · [hello@jordimp.net](mailto:hello@jordimp.net)
