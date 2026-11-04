@@ -10,7 +10,7 @@ Jordimp & Co. is the working name of one engineer in Barcelona. I build backend 
 
 **[harness](https://github.com/jordimarsal/harness)**: multi-agent harness with spec-author, implementer and reviewer roles, and human gates between them. Installs into any project with one command, and its process ships as six standalone skills: `npx skills add jordimarsal/harness`.
 
-**[buildwright](https://github.com/jordimarsal/buildwright)**: agent-loop runtime with per-step model routing — LangGraph orders the steps, PydanticAI runs them, LiteLLM serves the model and Langfuse traces it. The role-to-model map is configuration, so switching models touches zero lines of pipeline.
+**[buildwright](https://github.com/jordimarsal/buildwright)**: agent-loop runtime with per-step model routing — LangGraph orders the steps, PydanticAI runs them, LiteLLM serves the model and Langfuse traces it. The role-to-model map is configuration, so switching models touches zero lines of pipeline. On PyPI: `uvx buildwright`.
 
 **[debrief-mcp](https://github.com/jordimarsal/debrief-mcp)**: MCP server that answers agent questions from receipts — what ggufbench measured (bench), where a buildwright run broke (run), and a role-change proposal as text. Hexagonal and read-only: every answer is findings or a structured error. On PyPI: `uvx debrief-mcp`.
 
