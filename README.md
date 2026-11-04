@@ -12,8 +12,8 @@ Jordimp & Co. is the working name of one engineer in Barcelona. I build backend 
 
 **[buildwright](https://github.com/jordimarsal/buildwright)**: agent-loop runtime with per-step model routing — LangGraph orders the steps, PydanticAI runs them, LiteLLM serves the model and Langfuse traces it. The role-to-model map is configuration, so switching models touches zero lines of pipeline.
 
-**[kafka-adapter-telemetry](https://github.com/jordimarsal/kafka-adapter-telemetry)**: Kafka gateway and hub with idempotent Oracle persistence, dead-letter queues, health alerts and a live SSE dashboard. Java 25, Spring Boot 4.
+**[debrief-mcp](https://github.com/jordimarsal/debrief-mcp)**: MCP server that answers agent questions from receipts — what ggufbench measured (bench), where a buildwright run broke (run), and a role-change proposal as text. Hexagonal and read-only: every answer is findings or a structured error. On PyPI: `uvx debrief-mcp`.
 
-**[mcp-transparent-png](https://github.com/jordimarsal/mcp-transparent-png)**: MCP server in Python for PNG transparency, with three modes (rgb, auto, greenscreen).
+**[kafka-adapter-telemetry](https://github.com/jordimarsal/kafka-adapter-telemetry)**: Kafka gateway and hub with idempotent Oracle persistence, dead-letter queues, health alerts and a live SSE dashboard. Java 25, Spring Boot 4.
 
 Site: [jordimp.net](https://jordimp.net) · LinkedIn: [jordi-marsal-poy](https://www.linkedin.com/in/jordi-marsal-poy) · [hello@jordimp.net](mailto:hello@jordimp.net)
